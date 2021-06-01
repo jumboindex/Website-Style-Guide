@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:azure
+}
+
+nav {
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 75px;
+}
+
+nav ul li {
+    display: inline-block;
+    border: black solid 1px;
+    background-color: lightsteelblue;
+    margin: 15px;
+    height: 20px;
+    width:25px;
+    border-radius: 50px;
+}
+
+nav ul li a:hover{
+    background-color: lime;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+section {
+    border:black dotted 2px; 
+}
+
+section.content-box div {
+    border: gray solid 2px;
+    height: 40px;
+    width: 40px;
+    margin: 20px 20px;
+    display: inline-block;
+}
