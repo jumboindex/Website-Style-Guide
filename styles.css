@@ -7,24 +7,34 @@ body {
 }
 
 nav {
-    width: 100%;
+    width: 50%;
     background-color: lightgrey;
-    border-radius: 75px;
+    margin: 5px; 
+    height: 30px;;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} 
 
 nav ul li {
-    display: inline-block;
-    border: black solid 1px;
-    background-color: lightsteelblue;
-    margin: 15px;
-    height: 20px;
-    width:25px;
-    border-radius: 50px;
-}
+    border-right: black solid 1px;
+    float:left;
+ 
+}   
 
 nav ul li a:hover{
-    background-color: lime;
+    background-color: whitesmoke;
 }
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
 
 p {
     font-family: 'Courier New', Courier, monospace;
@@ -42,3 +52,5 @@ section.content-box div {
     margin: 20px 20px;
     display: inline-block;
 }
+
+
