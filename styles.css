@@ -54,13 +54,13 @@ li a {
   /* Fonts */
 
 
-h3.Roboto-Mono, h3.Ubuntu, h3.Rubik {
+h3 {
     text-decoration: underline;
     margin: 5px;
     padding-bottom: 5px;
 }
 
-p.Roboto-Mono, p.Roboto-Mono-bold, p.Roboto-Mono-italic {
+p.Roboto-Mono, p.Roboto-Mono-bold, p.Roboto-Mono-italic, h3.Roboto-Mono {
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -72,7 +72,7 @@ p.Roboto-Mono-italic {
     font-style: italic;
 }
 
-p.Ubuntu, p.Ubuntu-bold, p.Ubuntu-italic  {
+p.Ubuntu, p.Ubuntu-bold, p.Ubuntu-italic, h3.Ubuntu  {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -84,7 +84,7 @@ p.Ubuntu-italic {
     font-style: italic;
 }
 
-p.Rubik, p.Rubik-bold, p.Rubik-italic  {
+p.Rubik, p.Rubik-bold, p.Rubik-italic, h3.Rubik  {
     font-family: 'Rubik', sans-serif;
 }
 
@@ -142,7 +142,9 @@ div.text {
 
     display: inline-block;
     width: 20%;
+    margin-top: 10px;
     margin: 15px;
+    vertical-align: top;
 }
 
 /* text styles*/
