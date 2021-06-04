@@ -2,22 +2,29 @@
 <html lang="en">
     <head>
         <link href="/styles.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
         <title> &lt;stylesheet&gt;</title>
     </head>
     <body>
         <head>
             <nav>
                 <ul>
-                    <li><a href="#">Colors</a></li>
-                    <li><a href="#">Fonts</a></li>
-                    <li><a href="#">Text Styles</a></li>
+                    <li><a href="#Colors">Colors</a></li>
+                    <li><a href="#Fonts">Fonts</a></li>
+                    <li><a href="#Text styles">Text Styles</a></li>
                     <li id="about"><a href="#">About</a></li>
                 </ul>
             </nav>
         </head>
         <main>
+            <h1>Website Style Guide</h1>
             <section class="content-box">
-                <h2>Colors</h2>
+                <h2 id="Colors">Colors</h2>
                 <div class="light-grey">
                     <p>Light Grey <br><br> #d3d3d3</p>
                 </div>
@@ -30,15 +37,55 @@
                 
             </section>
             <section class="content-box">
-                <h2>Fonts</h2>
-               
+                <h2 id="Fonts">Fonts</h2>
 
-                </div>
+                    <div class="text">
+                        <h3 class="Roboto-Mono">Roboto-Mono</h3>
+                        <p class="Roboto-Mono">The quick brown fox jumps over the lazy cat.</p>
+                        <p class="Roboto-Mono-bold">The quick brown fox jumps over the lazy cat.</p>
+                        <p class="Roboto-Mono-italic">The quick brown fox jumps over the lazy cat.</p>
+                    </div>
+            
+                    <div class="text">  
+                        <h3 class="Ubuntu">Ubuntu</h3>
+                        <p class="Ubuntu">The quick brown fox jumps over the lazy cat.</p>
+                        <p class="Ubuntu-bold">The quick brown fox jumps over the lazy cat.</p>
+                        <p class="Ubuntu-italic">The quick brown fox jumps over the lazy cat.</p>
+                    </div>  
+                
+                    <div class="text">  
+                        <h3 class="Rubik">Rubik</h3>
+                        <p class="Rubik">The quick brown fox jumps over the lazy cat.</p>
+                        <p class="Rubik-bold">The quick brown fox jumps over the lazy cat.</p>
+                        <p class="Rubik-italic">The quick brown fox jumps over the lazy cat.</p>
+                    </div>
+                
             </section>
             <section class="content-box">
-                <h2>Text styles</h2>
-             
-
+                <h2 id="Text styles">Text styles</h2>
+                <div class="text-styles">
+                    <h1> H1: Main page heading</h1>
+                    <ul>
+                        <li>Font-weight: 600 </li>
+                        <li>Font-size: 3rem</li>
+                        <li>Font-family: Rubik</li>
+                    </ul>
+                </div>
+                <div class="text-styles">
+                    <h2> H2: Subheading</h2>
+                    <ul>
+                        <li>Font-weight: 500 </li>
+                        <li>Font-size: 24px</li>
+                        <li>Font-family: Ubunutu</li>
+                    </ul>
+                </div>
+                <div class="text-styles">
+                    <p> p:Paragraph text</p>
+                    <ul>
+                        <li>Font-weight: 400 </li>
+                        <li>Font-size: 12px</li>
+                        <li>Font-family:Roboto Mono</li>
+                    </ul>
                 </div>
             </section>
         </main>

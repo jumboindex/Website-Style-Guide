@@ -13,7 +13,7 @@ nav {
     width: 100%;
     background-color: #d3d3d3;
     margin: 5px; 
-    height: 34px;
+    height: 36px;
 }
 
 nav ul {
@@ -33,10 +33,11 @@ nav ul li a:hover{
     background-color: #f5f5f5;
 }
 
-a {
+li a {
     display: block;
     padding: 8px;
     color: white;
+    
   }
 
   #about {
@@ -46,22 +47,72 @@ a {
       background-color: black;
   }
 
-  /* text styling*/
+  /* Fonts */
 
-p {
-    font-family: 'Courier New', Courier, monospace;
+
+h3.Roboto-Mono, h3.Ubuntu, h3.Rubik {
+    text-decoration: underline;
     margin: 5px;
-
+    padding-bottom: 5px;
 }
 
-/* section and div styling */
+p.Roboto-Mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+p.Roboto-Mono-bold {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+
+p.Roboto-Mono-italic {
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}
+
+p.Ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p.Ubuntu-bold {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+p.Ubuntu-italic {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+}
+
+p.Rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+p.Rubik-bold {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+p.Rubik-italic {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+
+/* section styling */
 
 section {
-    border:black dotted 2px; 
+    border:grey dotted 2px; 
     margin-top: 20px;
 }
 
-section.content-box div {
+section h2 {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+/* div styling - colors */
+
+ div.light-grey, div.white-smoke, div.light-green {
     border: gray solid 2px;
     height: 100px;
     width: 120px;
@@ -71,7 +122,6 @@ section.content-box div {
 }
 
 div.light-grey {
-    position:relative;
     background-color: #d3d3d3;
 }
 
@@ -81,4 +131,51 @@ div.white-smoke {
 
 div.light-green {
     background-color:#04AA6D;
+}
+
+/* div styling - fonts */
+
+div.text {
+
+    display: inline-block;
+    width: 45%;
+    margin: 15px;
+}
+
+/* text styles*/
+
+h1 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+/* div styling - text styles */
+
+div.text-styles {
+    margin: 15px;
 }
