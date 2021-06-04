@@ -4,7 +4,7 @@
 
 
 body {
-    background-color:paleturquoise
+    background-color:#afeeee
 }
 
 /*Nav bar styling*/ 
@@ -47,6 +47,10 @@ li a {
       background-color: black;
   }
 
+  #about a:hover{
+    background-color:#04AA6D;
+}
+
   /* Fonts */
 
 
@@ -56,45 +60,39 @@ h3.Roboto-Mono, h3.Ubuntu, h3.Rubik {
     padding-bottom: 5px;
 }
 
-p.Roboto-Mono {
+p.Roboto-Mono, p.Roboto-Mono-bold, p.Roboto-Mono-italic {
     font-family: 'Roboto Mono', monospace;
 }
 
 p.Roboto-Mono-bold {
-    font-family: 'Roboto Mono', monospace;
     font-weight: 600;
 }
 
 p.Roboto-Mono-italic {
-    font-family: 'Roboto Mono', monospace;
     font-style: italic;
 }
 
-p.Ubuntu {
+p.Ubuntu, p.Ubuntu-bold, p.Ubuntu-italic  {
     font-family: 'Ubuntu', sans-serif;
 }
 
 p.Ubuntu-bold {
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
 }
 
 p.Ubuntu-italic {
-    font-family: 'Ubuntu', sans-serif;
     font-style: italic;
 }
 
-p.Rubik {
+p.Rubik, p.Rubik-bold, p.Rubik-italic  {
     font-family: 'Rubik', sans-serif;
 }
 
 p.Rubik-bold {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
 }
 
 p.Rubik-italic {
-    font-family: 'Rubik', sans-serif;
     font-style: italic;
 }
 
@@ -103,6 +101,7 @@ p.Rubik-italic {
 section {
     border:grey dotted 2px; 
     margin-top: 20px;
+    overflow: auto;
 }
 
 section h2 {
@@ -112,7 +111,7 @@ section h2 {
 
 /* div styling - colors */
 
- div.light-grey, div.white-smoke, div.light-green {
+ div.light-grey, div.white-smoke, div.light-green, div.paleturquoise {
     border: gray solid 2px;
     height: 100px;
     width: 120px;
@@ -133,12 +132,16 @@ div.light-green {
     background-color:#04AA6D;
 }
 
+div.paleturquoise {
+    background-color: paleturquoise;
+}
+
 /* div styling - fonts */
 
 div.text {
 
     display: inline-block;
-    width: 45%;
+    width: 20%;
     margin: 15px;
 }
 
@@ -172,6 +175,12 @@ p {
 a {
     font-family: 'Rubik', sans-serif;
     text-decoration: none;
+}
+
+section.content-box li {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+
 }
 
 /* div styling - text styles */
